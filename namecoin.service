@@ -1,6 +1,6 @@
 [Unit]
 Description=Namecoin
-​
+
 [Service]
 ExecStart=/usr/local/bin/namecoind -daemon
 Restart=always
@@ -10,6 +10,6 @@ StandardError=syslog
 SyslogIdentifier=Namecoin
 #User=root
 #Group=root
-​
+
 [Install]
 WantedBy=multi-user.target
