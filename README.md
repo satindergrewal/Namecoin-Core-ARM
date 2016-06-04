@@ -11,6 +11,7 @@ https://github.com/namecoin/namecoin-core/blob/0.12/doc/build-unix.md#arm-cross-
 
 ```shell
 git clone https://github.com/satindergrewal/Namecoin-Core-ARM
+cd Namecoin-Core-ARM
 chmod +x install-nmc.sh
 ./install-nmc.sh
 ```
