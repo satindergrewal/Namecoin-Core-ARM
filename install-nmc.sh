@@ -1,5 +1,8 @@
 #!/bin/sh
 
+USER="$(whoami)"
+sed -i "s/root/${USER}/" namecoin.service
+
 sudo cp -av bench_namecoin namecoin-cli namecoind namecoin-tx test_namecoin /usr/local/bin/
 sudo cp -av namecoin.service /etc/systemd/system/
 sudo systemctl enable namecoin
